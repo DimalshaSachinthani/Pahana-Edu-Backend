@@ -101,10 +101,14 @@ http://localhost:8080/PahanEduBookshop/
 ## 📖 Documentation
 
 - [JSP Documentation](https://docs.oracle.com/javaee/7/tutorial/servlets.htm)  
-- [Servlets Documentation](https://jakarta.ee/specifications/servlet/)  
+- [Servlet Documentation](https://jakarta.ee/specifications/servlet/)  
+- [Maven Documentation](https://maven.apache.org/guides/index.html)  
+- [Tomcat Documentation](https://tomcat.apache.org/tomcat-11.0-doc/)  
 - [MySQL Documentation](https://dev.mysql.com/doc/)  
+- [Java Documentation](https://docs.oracle.com/en/java/)  
+- [Jakarta EE Documentation](https://jakarta.ee/specifications/)  
+- [Apache Commons Documentation](https://commons.apache.org/)  
 - [JUnit 5 Documentation](https://junit.org/junit5/)
-
 ---
 
 ## 🛠️ Testing
