@@ -83,12 +83,15 @@ startup.bat      # For Windows
 Then visit the app in your browser:
 
 ```
-http://localhost:8080/pahan-edu-web/
+http://localhost:8080/PahanEduBookshop/
 ```
 
 ---
 
 ## 🔐 Default Login Credentials
+
+- Open your web browser and go to:
+http://localhost:8080/PahanEduBookshop/
 
 - **Username:** `test`  
 - **Password:** `test`
