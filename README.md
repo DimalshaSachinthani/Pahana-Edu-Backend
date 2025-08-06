@@ -136,7 +136,7 @@ For issues or contributions, please open an issue or submit a pull request on th
 
 ## 📣 Author
 
-**D.M.K. Welivitage** – [@dmkwelivitage](https://github.com/dmkwelivitage)  
+**K. K. Dimalsha Sachinthani** – [@DimalshaSachinthani](https://github.com/DimalshaSachinthani)  
 Developed for university coursework `CIS6003` as part of the **Pahan Edu** project.
 
 ---
