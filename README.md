@@ -12,7 +12,7 @@ Pahan Edu Web is a Java Maven-based web application built using JSP and Servlets
 
 ## 📂 Project Structure
 
-<pre> ## 📂 Project Structure ``` 
+<pre>  
   pahan-edu-web/ 
   ├── pom.xml 
   ├── README.md 
