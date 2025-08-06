@@ -54,3 +54,62 @@ _No EXE installer — you can run locally via WAR deployment on Tomcat._
 ```bash
 mysql -u root -p pahana_edu < sql/schema.sql
 mysql -u root -p pahana_edu < sql/seed_data.sql
+
+Configure properties:
+
+Create src/main/resources/application.properties
+
+Use template from application-template.properties
+
+Build WAR file:
+
+bash
+Copy
+Edit
+mvn clean package
+Deploy WAR file on Tomcat
+
+Start Tomcat and visit:
+http://localhost:8080/pahan-edu-web/
+
+Default Login:
+
+Username: test
+
+Password: test
+
+📖 Documentation
+JSP Docs
+
+Servlets
+
+MySQL
+
+JUnit 5
+
+🛠️ Testing
+Run unit tests with:
+
+bash
+Copy
+Edit
+mvn test
+📫 Contact
+For issues or contributions, open an issue or PR.
+
+📈 Versioning and Changelog
+Version: 1.0.0
+
+Changelog: CHANGELOG.md
+
+📣 Author
+D.M.K. Welivitage - @dmkwelivitage
+Developed for the CIS6003 coursework
+
+📝 License
+Licensed under the MIT License.
+
+yaml
+Copy
+Edit
+
