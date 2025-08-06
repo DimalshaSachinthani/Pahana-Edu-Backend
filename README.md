@@ -13,26 +13,26 @@ Pahan Edu Web is a Java Maven-based web application built using JSP and Servlets
 ## 📂 Project Structure
 
 pahan-edu-web/
-├── pom.xml
-├── README.md
-├── LICENSE
-└── src/
-├── sql/
-└── main/
-├── java/
-│ └── com/uni/
-│   └── controller/
-│     └── BillServlet.java
-│   └── dao/
-│     └── BillDAO.java
-│   └── model/
-│     └── Bill.java
-│   └── service/
-│     └── BillService.java
-│   └── util/
-│     └── DatabaseUtil.java
-├── resources/
-└── webapp/
-├── index.jsp
-└── WEB-INF/
-└── web.xml
+-├── pom.xml
+-├── README.md
+-├── LICENSE
+-└── src/
+-├── sql/
+-└── main/
+-├── java/
+-│ └── com/uni/
+-│   └── controller/
+-│     └── BillServlet.java
+-│   └── dao/
+-│     └── BillDAO.java
+-│   └── model/
+-│     └── Bill.java
+-│   └── service/
+-│     └── BillService.java
+-│   └── util/
+-│     └── DatabaseUtil.java
+-├── resources/
+-└── webapp/
+-├── index.jsp
+-└── WEB-INF/
+-└── web.xml
