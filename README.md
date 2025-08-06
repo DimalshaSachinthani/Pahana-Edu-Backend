@@ -38,3 +38,19 @@ Pahan Edu Web is a Java Maven-based web application built using JSP and Servlets
   ├── index.jsp 
   └── WEB-INF/ 
   └── web.xml ``` </pre>
+
+  ## 🚀 How to Run Locally
+_No EXE installer — you can run locally via WAR deployment on Tomcat._
+
+### 📦 Prerequisites
+- Java 21+  
+- Apache Tomcat 11+  
+- MySQL Server (5.7+) / WAMP / XAMPP  
+- Maven 3.8+
+
+### 🔧 Setup Instructions
+1. Install dependencies: Java, Tomcat, MySQL  
+2. Configure database:  
+```bash
+mysql -u root -p pahana_edu < sql/schema.sql
+mysql -u root -p pahana_edu < sql/seed_data.sql
