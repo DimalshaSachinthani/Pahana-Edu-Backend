@@ -48,68 +48,92 @@ _No EXE installer — you can run locally via WAR deployment on Tomcat._
 - MySQL Server (5.7+) / WAMP / XAMPP  
 - Maven 3.8+
 
-### 🔧 Setup Instructions
-1. Install dependencies: Java, Tomcat, MySQL  
-2. Configure database:  
+## 🔧 Setup Instructions
+
+### 3. Configure Properties
+- Create the file:  
+  `src/main/resources/application.properties`
+- Use the template from:  
+  `application-template.properties`
+
+### 4. Build the WAR File
+Run the following command in your terminal:
+
 ```bash
-mysql -u root -p pahana_edu < sql/schema.sql
-mysql -u root -p pahana_edu < sql/seed_data.sql
-
-Configure properties:
-
-Create src/main/resources/application.properties
-
-Use template from application-template.properties
-
-Build WAR file:
-
-bash
-Copy
-Edit
 mvn clean package
-Deploy WAR file on Tomcat
+```
 
-Start Tomcat and visit:
+### 5. Deploy WAR on Tomcat
+Copy the generated WAR file:
+
+```bash
+target/pahan-edu-web.war
+```
+
+Into your Tomcat’s `webapps/` directory.
+
+### 6. Start Tomcat Server
+Navigate to the Tomcat `bin/` directory and run:
+
+```bash
+./startup.sh     # For Linux/macOS
+startup.bat      # For Windows
+```
+
+Then visit the app in your browser:
+
+```
 http://localhost:8080/pahan-edu-web/
+```
 
-Default Login:
+---
 
-Username: test
+## 🔐 Default Login Credentials
 
-Password: test
+- **Username:** `test`  
+- **Password:** `test`
 
-📖 Documentation
-JSP Docs
+---
 
-Servlets
+## 📖 Documentation
 
-MySQL
+- [JSP Documentation](https://docs.oracle.com/javaee/7/tutorial/servlets.htm)  
+- [Servlets Documentation](https://jakarta.ee/specifications/servlet/)  
+- [MySQL Documentation](https://dev.mysql.com/doc/)  
+- [JUnit 5 Documentation](https://junit.org/junit5/)
 
-JUnit 5
+---
 
-🛠️ Testing
-Run unit tests with:
+## 🛠️ Testing
 
-bash
-Copy
-Edit
+To run unit tests:
+
+```bash
 mvn test
-📫 Contact
-For issues or contributions, open an issue or PR.
+```
 
-📈 Versioning and Changelog
-Version: 1.0.0
+---
 
-Changelog: CHANGELOG.md
+## 📫 Contact
 
-📣 Author
-D.M.K. Welivitage - @dmkwelivitage
-Developed for the CIS6003 coursework
+For issues or contributions, please open an issue or submit a pull request on the repo.
 
-📝 License
-Licensed under the MIT License.
+---
 
-yaml
-Copy
-Edit
+## 📈 Versioning and Changelog
 
+- **Version:** `1.0.0`  
+- **Changelog:** `CHANGELOG.md`
+
+---
+
+## 📣 Author
+
+**D.M.K. Welivitage** – [@dmkwelivitage](https://github.com/dmkwelivitage)  
+Developed for university coursework `CIS6003` as part of the **Pahan Edu** project.
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.
